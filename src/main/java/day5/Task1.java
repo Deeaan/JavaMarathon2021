@@ -3,25 +3,25 @@ package day5;
 public class Task1 {
     public static void main(String[] args) {
 
-        Car car1 = new Car();
-        car1.setModel("Tesla");
-        car1.setYearOfRelease(2019);
-        car1.setColor("Black");
+        Car tesla = new Car();
+        tesla.setModel("Tesla Model X");
+        tesla.setYearOfRelease(2015);
+        tesla.setColor("Black");
 
-        System.out.println(car1.getModel());
-        System.out.println(car1.getYearOfRelease());
-        System.out.println(car1.getColor());
+        System.out.println(tesla.getModel());
+        System.out.println(tesla.getYearOfRelease());
+        System.out.println(tesla.getColor());
 
         System.out.println();
 
-        Car car2 = new Car();
-        car2.setModel("Porshe");
-        car2.setYearOfRelease(2020);
-        car2.setColor("White");
+        Car porsche = new Car();
+        porsche.setModel("Porsche 911");
+        porsche.setYearOfRelease(2020);
+        porsche.setColor("White");
 
-        System.out.println(car2.getModel());
-        System.out.println(car2.getYearOfRelease());
-        System.out.println(car2.getColor());
+        System.out.println(porsche.getModel());
+        System.out.println(porsche.getYearOfRelease());
+        System.out.println(porsche.getColor());
 
 
     }
